@@ -9,7 +9,7 @@ def refinedLockdown(no.ofcases) :
    While (no.ofcases < 5) : 
 
 	1. TRACK and TRACE (Identify the number of cases(no.ofcases)).
-	2. LOCKDOWN for the infected, vulnerable and exposed.
+	2. LOCKDOWN for the infected, vulnerable,not vaccinated and exposed.
 	3. NO LOCKDOWN for Healthy, Vaccinated or the recovered with antibodies.
 	
 return (all okay) 
