@@ -20,9 +20,11 @@ Feasibility analysis :
 
 Pros : 
 -----------------
-Encourages everyone to take vaccine ! 
+1.Encourages everyone to take vaccine ! 
+2. Continous tracking and tracing. 
 
 Cons : 
 --------------
 Very hard to track and trace in a short period of time . 
 
+Summary : Not very feasible as tracking and tracing is very time consuming. 
