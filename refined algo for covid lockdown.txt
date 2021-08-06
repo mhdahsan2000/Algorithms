@@ -8,7 +8,7 @@ def refinedLockdown(no.ofcases) :
  for the whole (population.count) in a particular geographical location : 
    While (no.ofcases < 5) : 
 
-	1. TRACK and TRACE (Identify the number of cases).
+	1. TRACK and TRACE (Identify the number of cases(no.ofcases)).
 	2. LOCKDOWN for the infected, vulnerable and exposed.
 	3. NO LOCKDOWN for Healthy, Vaccinated or the recovered with antibodies.
 	
