@@ -1,0 +1,28 @@
+// Topsort + Finding max sequence of length in graph +  
+// putting the values into an array + finding max element in // the array. 
+
+// function -> with an return value 
+// procedure -> without return value 
+
+
+function FINDMAX()
+		T <- TOPSORT((V,E)) // to topsort the given graph
+		// once top sort is done this would give the longest 
+		// path in the given sequence.  
+		 L[t] <- 0  // Initialising an array L to store the node t 
+		 for each u e V do 
+		     if (u,t) e E then // for each edge(u,t) in set  //of edges E
+		        if L[u] + weight[u,t] > L[t] then  // If weight of the edge(u,t) + that of the current node would exceed the earlier initiliased node weight value L[t], then the value of L[t] is updated.
+
+		           L[t] <- L[u] + weight[u,t]   // L[t] would be the maximal path now with maximal value 
+
+
+
+
+		  max <- 0 
+		  for each u e V do   // for each node belonging to the vertex set 
+		  	if L[u] > max then // if a particular node path value is greater than the earlier initialised path value, then the path value is updated. 
+		  		max <- L[u]  // This is true as always the longest path value is updated using the initial steps in the algorithm. 
+		  	return max  // So the max value in this array would be the max length 
+
+// soln by. Mohammed 
